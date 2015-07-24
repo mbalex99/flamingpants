@@ -10,7 +10,6 @@
 		C2ABC1B9C7B637320CA622A1 /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F004DABFA76AED2270507AA3 /* Pods.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		E3DA0F7F1B62811F00B025B5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3DA0F7E1B62811F00B025B5 /* AppDelegate.swift */; };
 		E3DA0F811B62811F00B025B5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3DA0F801B62811F00B025B5 /* ViewController.swift */; };
-		E3DA0F841B62811F00B025B5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E3DA0F821B62811F00B025B5 /* Main.storyboard */; };
 		E3DA0F861B62811F00B025B5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E3DA0F851B62811F00B025B5 /* Images.xcassets */; };
 		E3DA0F891B62811F00B025B5 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = E3DA0F871B62811F00B025B5 /* LaunchScreen.xib */; };
 		E3DA0F951B62811F00B025B5 /* FlamingPantsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3DA0F941B62811F00B025B5 /* FlamingPantsTests.swift */; };
@@ -32,7 +31,6 @@
 		E3DA0F7D1B62811F00B025B5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E3DA0F7E1B62811F00B025B5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E3DA0F801B62811F00B025B5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		E3DA0F831B62811F00B025B5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E3DA0F851B62811F00B025B5 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		E3DA0F881B62811F00B025B5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		E3DA0F8E1B62811F00B025B5 /* FlamingPantsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlamingPantsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -103,7 +101,6 @@
 			children = (
 				E3DA0F7E1B62811F00B025B5 /* AppDelegate.swift */,
 				E3DA0F801B62811F00B025B5 /* ViewController.swift */,
-				E3DA0F821B62811F00B025B5 /* Main.storyboard */,
 				E3DA0F851B62811F00B025B5 /* Images.xcassets */,
 				E3DA0F871B62811F00B025B5 /* LaunchScreen.xib */,
 				E3DA0F7C1B62811F00B025B5 /* Supporting Files */,
@@ -219,7 +216,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E3DA0F841B62811F00B025B5 /* Main.storyboard in Resources */,
 				E3DA0F891B62811F00B025B5 /* LaunchScreen.xib in Resources */,
 				E3DA0F861B62811F00B025B5 /* Images.xcassets in Resources */,
 			);
@@ -311,14 +307,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		E3DA0F821B62811F00B025B5 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				E3DA0F831B62811F00B025B5 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		E3DA0F871B62811F00B025B5 /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
