@@ -11,7 +11,7 @@ import RxCocoa
 import RxSwift
 import SlackTextViewController
 
-class ViewController: UIViewController {
+class ViewController: SLKTextViewController {
     
 
     override func viewDidLoad() {
