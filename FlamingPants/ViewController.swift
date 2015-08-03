@@ -65,6 +65,7 @@ class ViewController: SLKTextViewController {
                 self.tableView.reloadData()
                 self.isInitialLoad = false;
             })
+            >- disposeBag.addDisposable
         
         
         pressedRightButtonSubject
@@ -86,7 +87,7 @@ class ViewController: SLKTextViewController {
     
     override func viewDidAppear(animated: Bool) {
         super.viewDidAppear(animated)
-        /*let alertController = UIAlertController(title: "Need your name!", message: nil, preferredStyle: UIAlertControllerStyle.Alert)
+        let alertController = UIAlertController(title: "Need your name!", message: nil, preferredStyle: UIAlertControllerStyle.Alert)
         
         alertController.addTextFieldWithConfigurationHandler { (textField) in
             textField.placeholder = "Your Name"
@@ -96,8 +97,7 @@ class ViewController: SLKTextViewController {
             let nameTextField = alertController.textFields?[0] as! UITextField
             self.name = nameTextField.text
         }))
-        
-        self.presentViewController(alertController, animated: true, completion: nil)*/
+        self.presentViewController(alertController, animated: true, completion: nil)
     }
     
     override func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
